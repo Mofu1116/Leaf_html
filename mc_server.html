@@ -281,23 +281,12 @@
                         <li>· 开启假人config、常驻假人</li>
                         <li>· 玩家发包速率无限制：max-packet-rate: -1.0(全局) | 默认配方书限制数值为5,单位检测时间为4、发包突破限制自动静默扔掉(局部)</li>
                         <li><strong>· 具体配置(部分)</strong></li>
-                        &lt;!· --resident-fakeplayer: true
-      open-fakeplayer-inventory: true
-      use-action: true
-      modify-config: true
-      manual-save-and-load: true
-      cache-skin: false
-                        · packet-limiter:
-  all-packets:
+                        &lt;-- resident-fakeplayer: true --&gt;
+                        &lt;-- open-fakeplayer-inventory: true --&lt;
+                        &lt;-- all-packets:
     action: DROP
     interval: 7.0
-    max-packet-rate: -1.0
-  kick-message: <red><lang:disconnect.exceeded_packet_rate>
-  overrides:
-    minecraft:place_recipe:
-      action: DROP
-      interval: 4.0
-      max-packet-rate: 5.0 --&gt; 
+    max-packet-rate: -1.0 --&lt;
                     </ul>
                 </div>
                 <p>服务器属于个人兴趣项目，没有盈利性质，遇到BUG可以向管理员(QQ:3572616178)反馈</p>
